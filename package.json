@@ -1,0 +1,8 @@
+{
+  "name": "devtools-realtime-chat-rooms",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"start": "node --experimental-strip-types src/chat_room_service.ts", "test": "node --experimental-strip-types src/chat_room_service.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"typescript": "^5.6.3"}
+}
